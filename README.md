@@ -15,4 +15,4 @@ The full list of apps in order of creation:
 9. Address Book -> A deeper exploration of databasehelper with larger databases
 10. Image Animation -> Introduces animations that can be done on images
 11. Quiz for kids -> Putting all of the subjects learned into one big app, uusing databasehelper, multi-views, fragments, intents, animations, etc.
-12. Geolocator
+12. Geolocator -> Additional lesson using Google Maps library
