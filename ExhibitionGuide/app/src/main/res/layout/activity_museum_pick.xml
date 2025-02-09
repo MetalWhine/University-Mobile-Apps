@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MuseumPickActivity">
+
+
+    <Button
+        android:id="@+id/artGalleryButton"
+        android:layout_width="172dp"
+        android:layout_height="72dp"
+        android:text="@string/art_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.359"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.106" />
+
+    <Button
+        android:id="@+id/wwiExhibitionButton"
+        android:layout_width="189dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/wwi_button"
+        app:layout_constraintEnd_toEndOf="@+id/artGalleryButton"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="@+id/artGalleryButton"
+        app:layout_constraintTop_toBottomOf="@+id/artGalleryButton" />
+
+    <Button
+        android:id="@+id/spaceExploringButton"
+        android:layout_width="170dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/space_button"
+        app:layout_constraintEnd_toEndOf="@+id/wwiExhibitionButton"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="@+id/wwiExhibitionButton"
+        app:layout_constraintTop_toBottomOf="@+id/wwiExhibitionButton" />
+
+    <Button
+        android:id="@+id/visualShowButton"
+        android:layout_width="155dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/visual_button"
+        app:layout_constraintEnd_toEndOf="@+id/spaceExploringButton"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="@+id/spaceExploringButton"
+        app:layout_constraintTop_toBottomOf="@+id/spaceExploringButton" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="85dp"
+        android:layout_height="72dp"
+        app:layout_constraintBottom_toBottomOf="@+id/artGalleryButton"
+        app:layout_constraintStart_toEndOf="@+id/artGalleryButton"
+        app:layout_constraintTop_toTopOf="@+id/artGalleryButton"
+        app:srcCompat="@drawable/art_icon" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="86dp"
+        android:layout_height="82dp"
+        app:layout_constraintBottom_toBottomOf="@+id/visualShowButton"
+        app:layout_constraintStart_toEndOf="@+id/visualShowButton"
+        app:layout_constraintTop_toTopOf="@+id/visualShowButton"
+        app:srcCompat="@drawable/visual_icon" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="86dp"
+        android:layout_height="81dp"
+        app:layout_constraintBottom_toBottomOf="@+id/wwiExhibitionButton"
+        app:layout_constraintStart_toEndOf="@+id/wwiExhibitionButton"
+        app:layout_constraintTop_toTopOf="@+id/wwiExhibitionButton"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/war_icon" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="104dp"
+        android:layout_height="91dp"
+        app:layout_constraintBottom_toBottomOf="@+id/spaceExploringButton"
+        app:layout_constraintStart_toEndOf="@+id/spaceExploringButton"
+        app:layout_constraintTop_toTopOf="@+id/spaceExploringButton"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/space_icon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

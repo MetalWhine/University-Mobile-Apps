@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScoreboardActivity">
+
+    <TextView
+        android:id="@+id/ScoreboardText"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:text="Score 1 Game 1 2/2/2002 \n Score 2 Game 1 2/2/2002 \n Score 3 Game 2 2/2/2002"
+        android:textAlignment="center"
+        android:textSize="@dimen/text_default_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.342" />
+
+    <TextView
+        android:id="@+id/TotalScoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:text="TextView"
+        android:textSize="@dimen/text_default_size"
+        app:layout_constraintBottom_toTopOf="@+id/ScoreboardText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.416" />
+
+    <Button
+        android:id="@+id/BackButton"
+        android:layout_width="@dimen/button_small_width"
+        android:layout_height="@dimen/button_default_height"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/back_button_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ScoreboardText" />
+
+    <Button
+        android:id="@+id/SortByQuizButton"
+        android:layout_width="@dimen/button_small_width"
+        android:layout_height="@dimen/button_default_height"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="21dp"
+        android:text="Sort by Quiz"
+        android:textSize="@dimen/text_small_size"
+        app:layout_constraintBottom_toBottomOf="@+id/BackButton"
+        app:layout_constraintStart_toEndOf="@+id/BackButton"
+        app:layout_constraintTop_toTopOf="@+id/BackButton"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <Button
+        android:id="@+id/SortByDateButton"
+        android:layout_width="@dimen/button_small_width"
+        android:layout_height="@dimen/button_default_height"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="21dp"
+        android:text="Sort by date"
+        android:textSize="@dimen/text_small_size"
+        app:layout_constraintBottom_toBottomOf="@+id/BackButton"
+        app:layout_constraintEnd_toStartOf="@+id/BackButton"
+        app:layout_constraintTop_toTopOf="@+id/BackButton"
+        app:layout_constraintVertical_bias="0.3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

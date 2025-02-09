@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyMessenger</string>
+    <string name="create_msg">Create message</string>
+    <string name="view_msg">View message</string>
+    <string name="sendby_msg">Send by message</string>
+    <string name="new_item">This is the second option in the menu!</string>
+</resources>

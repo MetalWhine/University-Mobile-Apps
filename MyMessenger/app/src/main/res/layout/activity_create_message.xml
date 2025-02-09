@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateMessageActivity">
+
+    <Button
+        android:id="@+id/viewButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='View Before Sending'
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.115" />
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Send Message Using"
+        app:layout_constraintEnd_toEndOf="@+id/viewButton"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="@+id/viewButton"
+        app:layout_constraintTop_toBottomOf="@+id/viewButton" />
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="276dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="252dp"
+        android:ems="10"
+        android:hint="Insert Message here"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/sendButton"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/sendButton"
+        app:layout_constraintTop_toBottomOf="@+id/viewButton" />
+
+    <include
+        layout="@layout/toolbar_main"
+        android:id="@+id/toolbar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Exhibition Guide</string>
+    <string name="start_text">Start</string>
+    <string name="exhibition_label">Exhibition Select</string>
+    <string name="details_label">Details &amp; Confirmation</string>
+    <string name="art_button">Art Gallery</string>
+    <string name="wwi_button">WWI Exhibition</string>
+    <string name="space_button">Exploring the Space</string>
+    <string name="visual_button">Visual Show</string>
+</resources>

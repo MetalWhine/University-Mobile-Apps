@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Quiz for Kids</string>
+    <string name="instructions_string">Instructions: First you can pick which quiz you want to do from the main menu. There are 2 quizzes, the animal quiz and the cartoon quiz. Each quiz has 4 questions which is randomized each time. The animal quiz will have pictures of animals which you have to guess. Put in the answer in singular format (Ex. For a picture of cats, put in "Cat"). For the cartoons quiz, please select the correct answer from the 3 given answers. For each correct, you will get 3 points, and for each wrong, you will get -1 points. You can see your total score from doing all the quizzes in the score page, and change password in the passwords page.</string>
+    <string name="back_button_text">Back to menu</string>
+    <string name="username_string">Username</string>
+    <string name="password_string">Password</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_default_width">430dp</dimen>
+    <dimen name="button_small_width">250dp</dimen>
+    <dimen name="button_default_height">176dp</dimen>
+    <dimen name="text_default_size">40sp</dimen>
+    <dimen name="text_small_size">30sp</dimen>
+    <dimen name="text_input_default_width">600dp</dimen>
+    <dimen name="text_input_default_height">100dp</dimen>
+</resources>

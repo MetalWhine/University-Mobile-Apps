@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Coffee Bar</string>
+    <string name="logo_description">CoffeeBar logo</string>
+    <string-array name="optionsMain">
+        <item>Coffee</item>
+        <item>Cakes</item>
+        <item>Soft drinks</item>
+    </string-array>
+</resources>

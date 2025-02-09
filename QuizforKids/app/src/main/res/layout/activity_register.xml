@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/EmailTextField"
+        android:layout_width="@dimen/text_input_default_width"
+        android:layout_height="@dimen/text_input_default_height"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/text_default_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.069" />
+
+    <EditText
+        android:id="@+id/UsernameTextField"
+        android:layout_width="@dimen/text_input_default_width"
+        android:layout_height="@dimen/text_input_default_height"
+        android:ems="10"
+        android:hint="@string/username_string"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/text_default_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.207" />
+
+    <EditText
+        android:id="@+id/PasswordTextField"
+        android:layout_width="@dimen/text_input_default_width"
+        android:layout_height="@dimen/text_input_default_height"
+        android:ems="10"
+        android:hint="@string/password_string"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/text_default_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.346" />
+
+    <Button
+        android:id="@+id/RegisterButton"
+        android:layout_width="@dimen/button_default_width"
+        android:layout_height="@dimen/button_default_height"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="91dp"
+        android:text="Register"
+        android:textSize="@dimen/text_default_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PasswordTextField"
+        app:layout_constraintVertical_bias="0.108" />
+
+    <Button
+        android:id="@+id/BackButton"
+        android:layout_width="@dimen/button_default_width"
+        android:layout_height="@dimen/button_default_height"
+        android:text="@string/back_button_text"
+        android:textSize="@dimen/text_default_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

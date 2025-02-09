@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_create_msg"
+        android:title="@string/create_msg"
+        android:icon="@drawable/icon_add"
+        android:orderInCategory="1"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_new_item"
+        android:title="@string/new_item"
+        android:icon="@drawable/icon_menu"
+        android:orderInCategory="2"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_sendby_msg"
+        android:title="@string/sendby_msg"
+        android:icon="@drawable/icon_sendby"
+        android:orderInCategory="3"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_no_action"
+        android:title="No Action"
+        android:orderInCategory="4"
+        app:showAsAction="collapseActionView" />
+
+    <item android:id="@+id/action_new_item2"
+        android:title="@string/new_item"
+        android:orderInCategory="5"
+        app:showAsAction="collapseActionView" />
+</menu>

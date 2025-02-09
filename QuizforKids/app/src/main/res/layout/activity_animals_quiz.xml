@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnimalsQuizActivity">
+
+    <ImageView
+        android:id="@+id/AnimalImage"
+        android:layout_width="wrap_content"
+        android:layout_height="253dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/cat" />
+
+    <EditText
+        android:id="@+id/AnswerTextField"
+        android:layout_width="@dimen/text_input_default_width"
+        android:layout_height="@dimen/text_input_default_height"
+        android:ems="10"
+        android:hint="Animal name?"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/text_default_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.789" />
+
+    <Button
+        android:id="@+id/NextButton"
+        android:layout_width="@dimen/button_small_width"
+        android:layout_height="51dp"
+        android:layout_marginTop="9dp"
+        android:text="Next"
+        android:textSize="@dimen/text_small_size"
+        app:layout_constraintEnd_toEndOf="@+id/AnswerTextField"
+        app:layout_constraintTop_toBottomOf="@+id/AnswerTextField" />
+
+    <Button
+        android:id="@+id/PreviousButton"
+        android:layout_width="@dimen/button_small_width"
+        android:layout_height="51dp"
+        android:layout_marginTop="9dp"
+        android:text="Previous"
+        android:textSize="@dimen/text_small_size"
+        app:layout_constraintStart_toStartOf="@+id/AnswerTextField"
+        app:layout_constraintTop_toBottomOf="@+id/AnswerTextField" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

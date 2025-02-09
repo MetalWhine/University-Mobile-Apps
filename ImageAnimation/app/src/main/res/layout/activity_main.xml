@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scale"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.128"
+        app:srcCompat="@drawable/magic_ball" />
+
+    <Button
+        android:id="@+id/rotate"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="Rotate"
+        app:layout_constraintBottom_toBottomOf="@+id/fade"
+        app:layout_constraintStart_toEndOf="@+id/fade"
+        app:layout_constraintTop_toTopOf="@+id/fade"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/scaleButton"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="4dp"
+        android:text="Scale"
+        app:layout_constraintStart_toStartOf="@+id/fade"
+        app:layout_constraintTop_toBottomOf="@+id/fade" />
+
+    <Button
+        android:id="@+id/fade"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="Fade"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.199"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.608" />
+
+    <Button
+        android:id="@+id/move"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="4dp"
+        android:text="Move"
+        app:layout_constraintStart_toEndOf="@+id/scaleButton"
+        app:layout_constraintTop_toBottomOf="@+id/rotate" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
